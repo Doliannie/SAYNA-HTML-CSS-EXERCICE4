@@ -1,0 +1,114 @@
+@font-face {
+    font-family: far_from_homecoming;
+    src: url(../Far_From_Homecoming_Updated.otf);
+}
+header{
+    background: #f1c530;
+}
+a{
+    color:#ffffff;
+    text-decoration: none;
+}
+header img{
+    padding: 10px;
+}
+header li{
+    padding: 20px;
+}
+h1,h1+p{
+    color: #ffffff;
+    position: relative;
+    top: 500px;
+    left: 100px;    
+}
+h1{
+    font-family: far_from_homecoming;
+    font-size: 80px;
+}
+h1+p{
+    font-size: 20px;
+}
+.section-conteneur{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 850px;
+    background-image:url(../Illustration/img7.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#card-section .card .card-hero {
+    background: #f1c530;
+    border: 6px solid #000000;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 300px;
+    height: 600px;
+    
+}
+#card-section .card-content span{
+    font-weight: bold;
+}
+.card-content {
+    padding: 15px;
+}
+#card-section  {
+    display: flex;
+    flex-wrap: wrap;  
+}
+.card-title h2{
+    text-align: center;
+}
+#card-section .card .card-hero  .card-image1{
+    height: 200px;
+    background-image: url(../Illustration/img8.png);
+    background-repeat: no-repeat;   
+    
+}
+#card-section .card .card-hero .card-image2{
+    height: 200px;
+    background-image: url(../Illustration/img9.png);
+    background-repeat: no-repeat;
+}
+#card-section .card .card-hero .card-image3{
+    height: 200px;
+    background-image: url(../Illustration/img10.png);
+    background-repeat: no-repeat;
+}
+footer{
+    background-color: #000000;
+}
+.form-select{
+    width: 200px;
+    color:white;
+    border:#f1c530;
+    background-color:#f1c530;
+    border-radius: 20px;   
+}
+option{
+    color: white;
+}
+.footer-img{
+    text-align: center;
+}
+.footer-logo{
+    background-color:#f1c530;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 2px;
+}
+.logo{
+    padding: 5px; 
+    text-align: center;
+}
+footer p {
+    color: #ffffff;
+    text-align: center;
+}
+footer{
+    padding-bottom: 20px;
+}
+.saynamarvel{
+    text-align: center;
+}
