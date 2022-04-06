@@ -2,11 +2,18 @@
     font-family: far_from_homecoming;
     src: url(../Far_From_Homecoming_Updated.otf);
 }
+body{
+    color: white;
+}
 header{
     background: #b11313;
 }
+footer{
+    background-color: #000000;
+}
+/*style bonus*/
 a{
-    color:#ffffff;
+    color: white;
     text-decoration: none;   
 }
 header li{
@@ -23,21 +30,15 @@ header li{
 .hero{
     margin-left: 5%;
     font-size:100px;
-    color:#ffffff;
     padding-top: 500px;
     font-family: far_from_homecoming;
 }
 .toile+p, .hero+p{
     margin-left: 5%;
-    color: #ffffff ;
     font-size:20px ;
-}
-footer{
-    background-color: #000000;
 }
 .form-select{
     width: 200px;
-    color:white;
     border:#b11313;
     background-color:#b11313;
     border-radius: 20px;   
@@ -60,22 +61,26 @@ footer{
     background-color: #f1c530;
     background-repeat:no-repeat;
     background-image: url(../Illustration/img5.png);
+    background-position: left;
+    transform:scaleX(-1) ;
     padding-left: 300px;
 }
+.section1_a_propos h1, .section1_a_propos p{
+    transform: scaleX(-1);
+    position: relative;
+    right: 20%;
+}
 footer p {
-    color: #ffffff;
     text-align: center;
 }
 .toile{
     font-size: 80px;
-    color: #ffffff;
     font-family: far_from_homecoming;
     padding-top: 300px;
     
 }
 .section2_a_propos, .message{
     background-color: #b11313;
-    color: #ffffff;
 }
 .section2_a_propos img{
     width: 700px;
@@ -111,7 +116,6 @@ section h1{
 }
 .saynaxmarvel{
     background-color:#114c92 ;
-    color: #ffffff;
     text-align: justify;
 }
 .input-txt{    
@@ -119,9 +123,273 @@ section h1{
     border-radius: 15px;
     text-align: center;
     background-color: #114c92;
-    color: #ffffff;
 }
 
 a.btn{
-    max-width: 10rem;
+    max-width: 13rem;
+    border-radius: 15px;
+}
+/*style home*/
+.section-container {
+    background-image: url(../Illustration/img1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    min-height: 55vw;
+}
+.section-container .btn{
+    margin-right: 2rem;
+}
+.spider{
+    position: relative;
+    top: 20vw;
+}   
+h1{
+   font-size: 60px;
+}
+h2{
+    font-size: 40px;
+    font-family: far_from_homecoming;
+}
+a+p{
+    font-size: 30px
+}
+.section-container2{
+    margin: 0;
+    background-color: #b11313;
+}
+.card-container{
+    border: none;
+    background-color: #b11313;
+}
+.card-text{
+    text-align: justify;
+}
+.card-container a{
+    color: #b11313;
+    font-weight: bold;
+    position: relative;
+    left: 15%;
+}
+.section-container3{
+    background-image: url(../Illustration/img5.png);
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 100%;
+    background-color: #114c92;
+}
+.information,.input {
+    position: relative;
+    left: 28vw;
+}
+.input{
+    border-radius: 15px;
+    width: 350px;
+    font-weight: bold;
+}
+.button{
+    border-radius: 15px;
+    width: 150px;
+    position: relative;
+    left: 33vw;
+    font-weight: bold; 
+}
+#guide{
+    font-size: 16px;
+    font-weight: lighter;
+    position: relative;
+    left: 25vw;
+}
+.section-container4{
+    background-image: url(../Illustration/img6.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 42vw;
+    width: 100%;
+    background-color: #b11313;
+}
+.input1{
+    background:none;
+    border-radius: 15px;
+    width: 300px;
+}
+.section-container4 h2{
+      font-size: 30px;
+}
+strong{
+    text-decoration: underline;
+    font-weight: lighter;
+}
+.section-container4 .newsletter{
+    position: relative;
+    top: 100px;
+}
+.section-container4 button{
+    border-radius: 15px;
+    position: relative;
+    left: 10vw;
+    font-weight: bold;
+}
+/*style Héros*/
+#navigation-heros{
+    background-color: #114c92;
+}
+.section1{
+    background-image: url(../Illustration/img19.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 40vw;
+}
+.section1 p{
+    font-size: 20px;
+}
+.section1 .col{
+    position: relative;
+    top: 20vw;
+    left: 2vw;
+}
+.section2,.section4,.section5,.section6{
+    background-color: #114c92;
+    text-align: justify;
+}
+h3{
+    font-size: 40px;
+    font-family: far_from_homecoming;
+}
+h3+p{
+    font-size: 2rem;
+}
+iframe{
+    width: 90%;
+    height: 90%;
+}
+.section3{
+    background-image: url(../Illustration/img20.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 30vw;
+}
+.section3 p{
+      font-size: 20px;
+}
+.section3 .col{
+    position: relative;
+    top: 10vw;
+}
+.section4 span{
+    font-weight: bold;
+}
+.spider-img{
+    position: relative;
+    top: -15%;
+    left: 25%;
+}
+.spider-coping{
+    position: relative;
+    top: 10%;
+    left: 30%;
+}
+.section7{
+    background-image: url(../Illustration/img32.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+    background-color: #b11313;
+}
+.avangers_paragraph{
+    text-align: justify;
+}
+.section8{
+    background-image: url(../Illustration/img33.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 40vw;
+}.section8 .univer{
+    height: 40vw;
+    background-color: #114b928e;
+    position:relative;
+    left: 60%;
+    text-align: justify;
+}
+.footer-logo-hero{
+    background-color:#114c92;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+}
+.logo-hero{
+        padding: 5px; 
+        text-align: center;
+}
+.form-select-hero{
+width: 200px;
+border:#114c92;
+background-color:#114c92;
+border-radius: 20px; 
+}
+/*style adversaire*/
+#adversaire-navigation{
+    background-color: #f1c530;
+}
+#adversaire{
+    background-image: url(../Illustration/img7.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    min-height: 44vw;
+}
+#adversaire .col{
+    position: relative;
+    top:20vw;
+    left: 15%;
+}
+#adversaire-content,#adversaire-content .card{
+    background-color: #f1c530;
+}
+#adversaire-content .card{
+    text-align: center;
+    width: 20rem;
+    margin-right: 5%;
+    margin-top: 5%;
+    color: #000000;
+    border: #000000 solid 6px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+#adversaire-content h5{
+    text-align: center;
+    font-weight: bold;
+}
+#adversaire-content span{
+    font-weight: bold;
+}
+.footer-logo-adv{
+    background-color:#f1c530;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+}
+.logo-adv{
+        padding: 5px; 
+        text-align: center;
+}
+#form-select-adv{
+width: 200px;
+border:#f1c530;
+background-color:#f1c530;
+border-radius: 20px; 
+}
+/*mobile*/
+@media screen and (max-width:768px) {
+    /*hero*/
+    .section1 .col{
+        padding-left: 10%;
+    }
+    .section1 h1, .section2 h3 {
+        font-size: 30px;
+    }
+     .section7,.section8{
+          display: none;
+     }
 }
